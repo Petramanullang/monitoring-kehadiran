@@ -165,5 +165,3 @@ require_once __DIR__ . '/../inc/ui.php';
 <div class="mt-6">
   <a class="<?= ui_btn_class('ghost') ?>" href="<?= BASE_URL ?>/admin/dashboard.php">Kembali</a>
 </div>
-
-<?php require_once __DIR__ . '/../inc/footer.php'; ?>
