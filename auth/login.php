@@ -43,10 +43,12 @@ require_once __DIR__ . '/../inc/header.php';
 require_once __DIR__ . '/../inc/ui.php';
 ?>
 
-<?= ui_page_start("Login", "Masuk untuk mengelola absensi dan izin pegawai.") ?>
+<div class="flex justify-center">
+  <?= ui_page_start("Login", "Masuk untuk mengelola absensi dan izin pegawai.") ?>
+</div>
 
-<div class="grid md:grid-cols-2 gap-6">
-  <?= ui_card_start("Akses cepat") ?>
+<div class="flex justify-center gap-10">
+  <!-- <?= ui_card_start("Akses cepat") ?>
     <div class="bg-yellow-200 border-2 border-black p-4 shadow-[6px_6px_0_0_#000]">
       <div class="font-black text-black">Admin Default</div>
       <div class="mt-2 text-sm text-black/80">
@@ -57,7 +59,7 @@ require_once __DIR__ . '/../inc/ui.php';
     <div class="mt-4 text-sm text-black/70">
       Buat akun pegawai/atasan di menu Admin → Users, lalu hubungkan ke Employees.
     </div>
-  <?= ui_card_end() ?>
+  <?= ui_card_end() ?> -->
 
   <?= ui_card_start("Masuk") ?>
     <form method="post" class="grid gap-4">
