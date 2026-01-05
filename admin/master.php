@@ -75,7 +75,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $id = (int)($_POST['id'] ?? 0);
     if (!$id) {
       set_flash('danger', 'ID tidak valid.');
-      header("Location: master.php?t=$t"); exit;
+      header( "Location: master.php?t=$t"); exit;
     }
 
     try {

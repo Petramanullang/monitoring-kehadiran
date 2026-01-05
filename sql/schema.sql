@@ -92,6 +92,7 @@ CREATE TABLE attendance (
   tanggal DATE NOT NULL,
   check_in DATETIME NULL,
   check_out DATETIME NULL,
+  note VARCHAR(50) NULL,
   UNIQUE KEY uq_att (id_employee, tanggal),
   FOREIGN KEY (id_employee) REFERENCES employee(id_employee)
 );

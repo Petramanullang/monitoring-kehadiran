@@ -17,7 +17,7 @@ function ui_card_start($title = '', $right = '') {
     <div class='flex items-start justify-between gap-3 pb-3 mb-4 border-b-2 border-black'>
       <div class='font-extrabold text-black'>$title</div>
       <div>$right</div>
-    </div>
+    </div> 
   " : "";
   return "
   <section class='bg-white border-2 border-black shadow-[8px_8px_0_0_#000] p-5'>

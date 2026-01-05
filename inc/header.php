@@ -26,7 +26,7 @@ function nb_nav($href, $label){
       <a href="<?= BASE_URL ?>/index.php" class="flex items-center gap-3">
         <div class="h-10 w-10 bg-cyan-300 border-2 border-black shadow-[6px_6px_0_0_#000]"></div>
         <div>
-          <div class="font-black text-black leading-tight">Monitoring Kehadiran</div>
+          <div class="font-black text-black leading-tight">Monitoring Kehadiran Pegawai</div>
         </div>
       </a>
 
