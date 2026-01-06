@@ -21,7 +21,7 @@ function nb_nav($href, $label){
 </head>
 
 <body class="min-h-screen bg-[#f4f1ea]">
-  <header class="border-b-2 border-black bg-white shadow-[0_6px_0_0_#000] mb-20">
+  <header class="border-b-2 border-black bg-white shadow-[0_6px_0_0_#000] mb-20 fixed sticky top-0">
     <div class="mx-auto max-w-6xl px-4 py-4 flex items-center justify-between gap-3">
       <a href="<?= BASE_URL ?>/index.php" class="flex items-center gap-3">
         <div class="h-10 w-10 bg-cyan-300 border-2 border-black shadow-[6px_6px_0_0_#000]"></div>
